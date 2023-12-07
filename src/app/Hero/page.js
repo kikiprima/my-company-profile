@@ -2,16 +2,16 @@ import Image from "next/image"
 
 const gambar = [
   {
-    url : "/Images/hero.jpg"
+    url : "/Images/hero.webp"
   },
   {
-    url : "/Images/hero1.jpg"
+    url : "/Images/hero1.webp"
   },
   {
-    url : "/Images/hero6.jpg"
+    url : "/Images/hero6.webp"
   },
   {
-    url : "/Images/hero3.jpg"
+    url : "/Images/hero3.webp"
   }
 ]
 

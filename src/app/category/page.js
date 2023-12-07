@@ -9,7 +9,7 @@ export default function Category(){
       <div>   
             <div className="card w-[350px] h-[350px] bg-white  ">
               <figure className="px-10 pt-10">
-              <img src='/Images/excavator.jpg' className="w-[250px] h-[200px]" alt='Logo'/>
+              <img src='/Images/excavator.webp' className="w-[250px] h-[200px]" alt='Logo'/>
               </figure>
               <div className="card-body items-center justify-center text-center">
                 <h2 className="card-title text-xl">Excavator</h2>
@@ -19,7 +19,7 @@ export default function Category(){
       <div>   
             <div className="card w-[350px] h-[350px] bg-white">
               <figure className="px-10 pt-10">
-              <img src='/Images/grader.jpg' className="w-[250px] h-[200px]" alt='Logo'/>
+              <img src='/Images/grader.webp' className="w-[250px] h-[200px]" alt='Logo'/>
               </figure>
               <div className="card-body items-center justify-center text-center">
                 <h2 className="card-title text-xl">Grader</h2>
@@ -29,7 +29,7 @@ export default function Category(){
       <div>   
             <div className="card w-[350px] h-[350px] bg-white">
               <figure className="px-10 pt-10">
-              <img src='/Images/loader.jpg' className="w-[250px] h-[200px]" alt='Logo'/>
+              <img src='/Images/loader.webp' className="w-[250px] h-[200px]" alt='Logo'/>
               </figure>
               <div className="card-body items-center justify-center text-center">
                 <h2 className="card-title text-xl">Loader</h2>

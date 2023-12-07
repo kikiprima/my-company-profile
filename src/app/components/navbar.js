@@ -15,9 +15,7 @@ export default function Navbar(){
                 <li><Link href="/Teams">Teams</Link></li>
               </ul>
             </div>
-            <Link href="/"><Image className='rounded-full'width={80} height={80}
-        alt='Image Error' src="/logo2.jpeg">
-        </Image></Link>
+            <Link href="/"><img src="/Images/logo2.webp" alt="logo" className="w-[80px] h-[80px] rounded-full"/></Link>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
