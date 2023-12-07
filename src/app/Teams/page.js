@@ -4,7 +4,7 @@ import RandomUser from "../components/RandomUser"
 
 export default function Teams(){
     return(
-        <div className="bg-yellow-800">
+        <div className="bg-base-200 w-screen">
         <h1>
             <RandomUser/>
         </h1>

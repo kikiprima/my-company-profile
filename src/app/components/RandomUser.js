@@ -21,7 +21,7 @@ const RandomUser = async () => {
    return (
     <>
     <div className="grid justify-center items-center">
-    <div className="gap-3 p-3 grid grid-cols-2 justify-between items-center">    
+    <div className="gap-3 p-3 grid md:grid-cols-1 lg:grid-cols-2 justify-between items-center">    
            <div className="card w-80 bg-base-100 shadow-xl">
             <figure className="">
               <img src={`${userData[0].picture.large}`} className="rounded-full p-2" alt="Shoes" /></figure>
@@ -30,6 +30,7 @@ const RandomUser = async () => {
               {`${userData[0].name.title}`} {`${userData[0].name.first}`} {`${userData[0].name.last}`}
               </h2>
               <p>{`${userData[0].location.street.name}`} {`${userData[0].location.street.number}`}</p>
+              <p>{`${userData[0].email}`}</p>
               <div className="card-actions justify-end">
                 <div className="badge badge-outline">Chairman, CEO</div> 
               </div>
@@ -41,18 +42,19 @@ const RandomUser = async () => {
               <img src={`${userData[1].picture.large}`} className="rounded-full p-2" alt="Shoes" /></figure>
             <div className="card-body">
               <h2 className="card-title">
-              {`${userData[1].name.title}`} {`${userData[1].name.first}`} {`${userData[1].name.last}`}
+              {`${userData[1].name.title}`} {`${userData[1].name.title}`} {`${userData[1].name.first}`} {`${userData[1].name.last}`}
               </h2>
               <p>{`${userData[1].location.street.name}`} {`${userData[1].location.street.number}`}</p>
+              <p>{`${userData[1].email}`}</p>
               <div className="card-actions justify-end">
-                <div className="badge badge-outline">Chairman, CEO</div> 
+                <div className="badge badge-outline">Chief Operating Officer</div> 
               </div>
             </div>
           </div>
           </div>
 
 
-          <div className="grid grid-cols-2 gap-3 p-3  ">
+          <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-3 p-3  ">
           <div className="card w-80 bg-base-100 shadow-xl">
             <figure className="">
               <img src={`${userData[2].picture.large}`} className="rounded-full p-2" alt="Shoes" /></figure>
@@ -61,8 +63,9 @@ const RandomUser = async () => {
               {`${userData[2].name.title}`} {`${userData[2].name.first}`} {`${userData[2].name.last}`}
               </h2>
               <p>{`${userData[2].location.street.name}`} {`${userData[2].location.street.number}`}</p>
+              <p>{`${userData[2].email}`}</p>
               <div className="card-actions justify-end">
-                <div className="badge badge-outline">Chairman, CEO</div> 
+                <div className="badge badge-outline">Chief Financial Officer</div> 
               </div>
             </div>
           </div>
@@ -74,8 +77,9 @@ const RandomUser = async () => {
               {`${userData[3].name.title}`} {`${userData[3].name.first}`} {`${userData[3].name.last}`}
               </h2>
               <p>{`${userData[3].location.street.name}`} {`${userData[3].location.street.number}`}</p>
+              <p>{`${userData[3].email}`}</p>
               <div className="card-actions justify-end">
-                <div className="badge badge-outline">Chairman, CEO</div> 
+                <div className="badge badge-outline">Chief Technology Officer</div> 
               </div>
             </div>
             </div>

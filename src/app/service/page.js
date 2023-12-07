@@ -1,6 +1,6 @@
 export default function Service(){
     return(
-        <div className="bg-yellow-800">
+        <div className="bg-base-200 w-screen">
         <ul className="timeline timeline-vertical">
             <li>
             <div className="timeline-start timeline-box"><div className="card w-96 bg-base-100 shadow-xl">

@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Navbar(){
     return(
-      <div className="navbar bg-yellow-950  text-black font-black">
+      <div className="navbar bg-black w-screen text-white font-black">
           <div className="navbar-start">
             <div className="dropdown">
               <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -15,7 +15,9 @@ export default function Navbar(){
                 <li><Link href="/Teams">Teams</Link></li>
               </ul>
             </div>
-            <a className="btn btn-ghost text-xl"><Link href="/">Home</Link></a>
+            <Link href="/"><Image className='rounded-full'width={80} height={80}
+        alt='Image Error' src="/logo2.jpeg">
+        </Image></Link>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
@@ -25,9 +27,6 @@ export default function Navbar(){
             </ul>
           </div>
           <div className="navbar-end">
-          <Image className='rounded-full'width={80} height={80}
-        alt='Image Error' src="/logo2.jpeg">
-        </Image>
           </div>
     </div>
     )
